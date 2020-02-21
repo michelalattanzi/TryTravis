@@ -1,0 +1,9 @@
+dist: trusty
+language: java
+jdk:
+   -openjdk13
+addons:
+  apt:
+    packages:
+      - ant
+script: ant build
